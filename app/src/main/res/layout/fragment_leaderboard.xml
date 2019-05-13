@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeaderboardActivityFragment"
+    tools:showIn="@layout/activity_leaderboard">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="395dp"
+        android:layout_height="610dp"
+        android:layout_marginStart="@dimen/tiny_margin"
+        android:layout_marginLeft="@dimen/tiny_margin"
+        android:layout_marginTop="@dimen/tiny_margin"
+        android:layout_marginEnd="@dimen/tiny_margin"
+        android:layout_marginRight="@dimen/tiny_margin"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hidden_margin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tiny_margin"
+                android:layout_marginLeft="@dimen/tiny_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/tiny_margin"
+                android:layout_marginRight="@dimen/tiny_margin"/>
+
+            <TextView
+                android:id="@+id/leaderboard_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/tiny_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/tiny_margin"
+                android:text="@string/leaderboard_title"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/bronze_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:text="@string/bronze_title"
+                android:textSize="@dimen/titles"/>
+
+            <TextView
+                android:id="@+id/bronze_badge_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:textSize="@dimen/small_text"/>
+
+            <ImageView
+                android:id="@+id/bronze_badge_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:src="@drawable/bronze"/>
+
+            <TextView
+                android:id="@+id/silver_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:text="@string/silver_title"
+                android:textSize="@dimen/titles"/>
+
+            <TextView
+                android:id="@+id/silver_badge_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:textSize="@dimen/small_text"/>
+
+            <ImageView
+                android:id="@+id/silver_badge_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:src="@drawable/silver"/>
+
+            <TextView
+                android:id="@+id/gold_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:text="@string/gold_title"
+                android:textSize="@dimen/titles"/>
+
+            <TextView
+                android:id="@+id/gold_badge_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:textSize="@dimen/small_text"/>
+
+            <TextView
+                android:id="@+id/avg_score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:textSize="@dimen/small_text"/>
+
+            <ImageView
+                android:id="@+id/gold_badge_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:src="@drawable/gold"/>
+
+            <TextView
+                android:id="@+id/score_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:text="@string/score_title"
+                android:textSize="@dimen/titles"/>
+
+            <TextView
+                android:id="@+id/score_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tiny_margin"
+                android:layout_marginLeft="@dimen/tiny_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/tiny_margin"
+                android:layout_marginRight="@dimen/tiny_margin"
+                android:textSize="@dimen/small_text"/>
+
+            <Button
+                android:id="@+id/deleteDB_button"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:text="@string/deleteDB_button"/>
+
+            <TextView
+                android:id="@+id/hidden_margin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tiny_margin"
+                android:layout_marginLeft="@dimen/tiny_margin"
+                android:layout_marginTop="@dimen/tiny_margin"
+                android:layout_marginEnd="@dimen/tiny_margin"
+                android:layout_marginRight="@dimen/tiny_margin"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

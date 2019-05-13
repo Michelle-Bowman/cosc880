@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri May 03 07:41:20 EDT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\cosc880\\praxisapp4\\app\\build\\intermediates\\merged_assets\\debug\\out
+0.path=quizDataBase.db
+0.set=ASSET
+count=1
